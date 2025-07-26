@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ctemp48/backend:latest
+        image: ctemp48/backend:f216a016255b54af0900ffdb0a93e7d521123344
         ports:
         - containerPort: 8000
