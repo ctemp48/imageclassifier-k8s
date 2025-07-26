@@ -13,7 +13,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - name: frontend
-        image: ctemp48/frontend:f216a016255b54af0900ffdb0a93e7d521123344
-        ports:
-        - containerPort: 80
+        - name: frontend
+          image: ctemp48/frontend:e3d3a5904b274cad4790a9299401164fe34c8145
+          ports:
+            - containerPort: 80
